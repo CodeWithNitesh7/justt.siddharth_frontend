@@ -22,7 +22,9 @@ export default function Navbar() {
                 <Link to="/" className="hover:text-cyan-600">Home</Link>
                 <Link to="/about" className="hover:text-cyan-600">About</Link>
                 <Link to="/projects" className="hover:text-cyan-600">Projects</Link>
-                <Link to="/resume" className="hover:text-cyan-600">Resume</Link>
+                <Link to="/services" className="hover:text-cyan-600">Services</Link>
+                <Link to="/contact" className="hover:text-cyan-600">Contact-Us</Link>
+                {/* <Link to="/resume" className="hover:text-cyan-600">Resume</Link> */}
                 <button
                     onClick={() => window.open("https://github.com/CodeWithNitesh7/", "_blank")}
                     className="bg-cyan-700 hover:bg-cyan-600 text-blue-200 hover:text-blue-100 rounded-xl px-3 py-2"
@@ -45,7 +47,9 @@ export default function Navbar() {
                     <Link to="/" className="hover:text-cyan-600" onClick={() => setIsOpen(false)}>Home</Link>
                     <Link to="/about" className="hover:text-cyan-600" onClick={() => setIsOpen(false)}>About</Link>
                     <Link to="/projects" className="hover:text-cyan-600" onClick={() => setIsOpen(false)}>Projects</Link>
-                    <Link to="/resume" className="hover:text-cyan-600" onClick={() => setIsOpen(false)}>Resume</Link>
+                    {/* <Link to="/resume" className="hover:text-cyan-600" onClick={() => setIsOpen(false)}>Resume</Link> */}
+                    <Link to="/services" className="hover:text-cyan-600" onClick={() => setIsOpen(false)}>Services</Link>
+                    <Link to="/contact" className="hover:text-cyan-600" onClick={() => setIsOpen(false)}>Contacts</Link>
 
                     <button
                         onClick={() => window.open("https://github.com/CodeWithNitesh7/", "_blank")}

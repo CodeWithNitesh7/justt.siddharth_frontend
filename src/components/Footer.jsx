@@ -30,14 +30,18 @@ export default function Footer() {
         {/* Contact Section */}
         <div className="space-y-3">
           <h2 className="text-lg font-semibold">Contact</h2>
+
           <p className="flex items-center gap-2 text-gray-400">
-            <Mail size={18} /> niteshgupta0985@gmail.com
+            <Mail size={18} /> nitesh.backend@gmail.com
           </p>
           <p className="flex items-center gap-2 text-gray-400">
-            <Phone size={18} /> +91 8808824412
+            <Mail size={18} /> siddharthgupta327@gmail.com
           </p>
+          {/* <p className="flex items-center gap-2 text-gray-400">
+            <Phone size={18} /> +91 9455447729
+          </p> */}
           <p className="flex items-center gap-2 text-gray-400">
-            <MapPin size={18} /> Gorakhpur ,Uttar Pradesh, India
+            <MapPin size={18} /> India , Proud to be Indian 
           </p>
         </div>
 

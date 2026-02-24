@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
     const texts = [
-        "Full Stack Developer",
-        "MERN Stack Developer",
-        "Flutter Developer",
-        "Android & iOS Developer",
-        "Smart Coder",
+        "Full Stack Engineer",
+        "Backend Developer ",
+        "React Native Developer",
+        "Android && ios Developer",
+        "Node Js Developer",
         "Freelancer"
     ];
 
