@@ -87,7 +87,8 @@ export default function Dashboard() {
 
       {/* HEADER */}
       <div className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white p-6 rounded-3xl shadow-lg mb-8">
-        <h1 className="text-3xl font-bold">Admin Dashboard</h1>
+        <h1 className="text-3xl font-bold">Codexnitesh
+        </h1>
         <p className="opacity-80 mt-1">Manage your portfolio & messages</p>
       </div>
 
